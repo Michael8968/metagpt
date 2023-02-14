@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "alibabacloud-nls": "^1.0.3",
+    "assert": "^2.0.0",
     "chatgpt": "^4.3.2",
     "core-js": "^3.8.3",
     "vant": "^2.12.54",
@@ -45,5 +46,8 @@
     "> 1%",
     "last 2 versions",
     "not dead"
-  ]
+  ],
+  "browser": {
+    "assert": false
+  }
 }
