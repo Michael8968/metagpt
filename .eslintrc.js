@@ -1,0 +1,36 @@
+module.exports = {
+    env: {
+        browser: true,
+        es2021: true,
+        amd: true,
+    },
+    extends: ["eslint:recommended", "plugin:vue/essential"],
+    parserOptions: {
+        ecmaVersion: 12,
+        sourceType: "module",
+    },
+    globals: {
+        loginUrl: "readonly",
+        defaultMediaOptions: "readonly",
+        textFace2imgFace: "readonly",
+        imgFace2textFace: "readonly",
+        $: "readonly",
+        maxUploadFileSize: "readonly",
+        fabric: "readonly",
+        jQuery: "readonly",
+        jwt: "readonly",
+        eyes: "readonly",
+        uneyes: "readonly",
+        agentWidgetUrl: "readonly",
+        formUrl: "readonly",
+        ivcsCustomer: "readonly",
+        miniProgramLoginPage: "readonly",
+        wx: "readonly",
+        mindrayOrg: "readonly",
+    },
+    plugins: ["vue"],
+    rules: {
+        "vue/no-unused-components": "off",
+        "vue/multi-word-component-names": 0,
+    },
+};

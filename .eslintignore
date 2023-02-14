@@ -1,0 +1,8 @@
+
+/dist/
+.eslintrc.js
+public/js
+/src/api
+vue.config.js
+main.js
+babel.config.js
